@@ -1,0 +1,10 @@
+.main-menu{
+    position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #0bff2c;
+list-style-type: none;
+}
