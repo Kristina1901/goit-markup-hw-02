@@ -34,4 +34,6 @@
    .main-menu a:focus {
         color:#2196F3;
     }
-    
+    .menu-item {
+        display: inline-block;
+    }
