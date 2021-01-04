@@ -29,6 +29,7 @@
         letter-spacing: 0.02em;
         color: #020202;
         text-decoration: none;
+        display: inline-block;
     }
    .contacts:hover, 
    .contacts:focus {
