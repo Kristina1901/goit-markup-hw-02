@@ -20,7 +20,7 @@
         letter-spacing: 0.03em;
         text-decoration: none; 
     }
-    .main-menu a {
+    .contacts {
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -30,9 +30,8 @@
         color: #020202;
         text-decoration: none;
     }
-   .main-menu a:hover {
+   .contacts:hover, 
+   .contacts:focus {
         color:#2196F3;
     }
-    .main-menu a:focus {
-        color:#2196F3;
-    }
+    
