@@ -29,7 +29,6 @@
         letter-spacing: 0.02em;
         color: #020202;
         text-decoration: none;
-        display: inline-block;
     }
    .main-menu a:hover, 
    .main-menu a:focus {
