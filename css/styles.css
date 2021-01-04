@@ -13,7 +13,6 @@
         font-weight: bold;
         font-size: 26px;
         line-height: 31px;
-        letter-spacing: 0.03em;
     }
     .logo-studio{
         color: black;
@@ -22,7 +21,6 @@
         font-weight: bold;
         font-size: 26px;
         line-height: 31px;
-        letter-spacing: 0.03em;
         text-decoration: none; 
     }
     .main-menu a {
