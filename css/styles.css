@@ -105,13 +105,13 @@
         color:  #212121;
     }
    .name {
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    color:  #212121;
+       font-family: Roboto;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 19px;
+       letter-spacing: 0.03em;
+       color:  #212121;
     }
     .our-team-item {
         display: inline-block;   
@@ -123,4 +123,62 @@
         line-height: 19px;
         letter-spacing: 0.03em;
         color:#757575;
+    }
+    .contact-information {
+       background: #2F303A;
+    }
+    .logo-studio-white {
+        color: white;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 31px;
+        text-decoration: none;
+    }
+    .company-address {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+    .tel-mail {
+          font-family: Roboto;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 0.03em;
+          color:rgba(255, 255, 255, 0.6);
+          text-decoration: none;
+    }
+    .button-portfolio {
+           background: #F5F4FA;
+           border-radius: 4px;
+    }
+    .button-portfolio:hover,
+    .button-portfolio:focus {
+            background-color:#2196F3;
+            color: white;
+    }
+    .portfolio-item {
+            display: inline-block; 
+    }
+        .portfolio-header {
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 36px;
+            letter-spacing: 0.06em;
+            color: #212121;
+    }
+    .porfolio-list>li {
+            font-family: Roboto;
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.03em;
+            color: #757575;
+            display: inline-block;
+    }
+    .link-logo {
+        text-decoration: none;
     }
