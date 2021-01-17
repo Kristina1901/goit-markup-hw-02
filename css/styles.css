@@ -4,7 +4,7 @@
     .logo-web{
         color:  #2196F3;
         font-family: Raleway;
-        font-style: normal;
+        font-size: 26px;
         font-weight: bold;
         font-size: 26px;
         line-height: 1.19;
@@ -12,7 +12,7 @@
     .logo-studio{
         color: black;
         font-family: Raleway;
-        font-style: normal;
+        font-size: 26px;
         font-weight: bold;
         font-size: 26px;
         line-height: 1.19;
@@ -20,7 +20,6 @@
     }
     .main-menu a {
         font-family: Roboto;
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -42,6 +41,7 @@
         line-height: 1.36;
         letter-spacing: 0.06em;
         color: white;
+        text-transform: uppercase;
     }
     .button {
         font-family: Roboto;
@@ -50,14 +50,8 @@
         line-height: 30px;
         color: white;
         background-color: #2196F3;
-        width: 200px;
-        height: 50px;
-        left: 700px;
-        top: 430px;
     }
     .advantages-item {
-        width: 270px;
-        height: 75px;
         font-family: Roboto;
         font-size: 14px;
         line-height: 1.71;
@@ -70,12 +64,15 @@
         font-weight: 700;
         line-height: 1.14;
         letter-spacing: 0.03em;
+        font-weight: bold;
+        text-transform: uppercase;
         color: #212121;
     }
     .specialization-header {
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
+        font-weight: bold;
         line-height: 1.16;
         letter-spacing: 0.03em;
         text-align: center;
@@ -87,8 +84,7 @@
     .our-team-header {
         font-family: Roboto;
         font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
+        font-weight: bold;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: center;
@@ -97,7 +93,6 @@
    .name {
        font-family: Roboto;
        font-size: 16px;
-       font-style: normal;
        font-weight: 500;
        line-height: 1.19;
        letter-spacing: 0.03em;
@@ -106,7 +101,6 @@
     .profession {
         font-family: Roboto;
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.19;
         letter-spacing: 0.03em;
         color:#757575;
