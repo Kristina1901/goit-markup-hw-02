@@ -1,19 +1,24 @@
 .main-menu{
     background: #FFFFFF;
     }
-    .main-menu a {
-        text-decoration: none;
+.main-menu a {
+    text-decoration: none;
+}   
+.link {
         font-family: Roboto;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        color: #212121;
+        color: black;
+        }
+   .link:hover, 
+   .link:focus {
+           color:#2196F3;
     }
-   .main-menu a:hover, 
-   .main-menu a:focus {
+    .current{
         color:#2196F3;
-    }
+    } 
     .logo-web{
         color:  #2196F3;
         font-family: Raleway;
@@ -29,6 +34,18 @@
         line-height: 1.19;
         text-decoration: none; 
     }
+    .tel-mail-title a {
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: black;
+    }
+    .tel-mail-title a:hover,
+    .tel-mail-title a:focus{
+        color:#2196F3
+    } 
     .hero {
         background: #2F303A;
     }
