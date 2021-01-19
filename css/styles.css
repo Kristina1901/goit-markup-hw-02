@@ -1,6 +1,19 @@
 .main-menu{
     background: #FFFFFF;
     }
+    .main-menu a {
+        text-decoration: none;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #212121;
+    }
+   .main-menu a:hover, 
+   .main-menu a:focus {
+        color:#2196F3;
+    }
     .logo-web{
         color:  #2196F3;
         font-family: Raleway;
@@ -15,19 +28,6 @@
         font-size: 26px;
         line-height: 1.19;
         text-decoration: none; 
-    }
-    .main-menu a {
-        font-family: Roboto;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        color: #020202;
-        text-decoration: none;
-    }
-   .main-menu a:hover, 
-   .main-menu a:focus {
-        color:#2196F3;
     }
     .hero {
         background: #2F303A;
@@ -48,7 +48,11 @@
         line-height: 30px;
         color: white;
         background-color: #2196F3;
-    }
+    }    
+    .button:hover {
+    cursor: pointer;    
+    }    
+    
     .advantages-item {
         font-family: Roboto;
         font-size: 14px;
@@ -105,7 +109,6 @@
     .logo-studio-white {
         color: white;
         font-family: Raleway;
-        font-style: normal;
         font-weight: bold;
         font-size: 26px;
         line-height: 1.19;
@@ -126,6 +129,10 @@
           color:rgba(255, 255, 255, 0.6);
           text-decoration: none;
     }
+    .tel-mail:hover,
+    .tel-mail:focus {
+           color:#2196F3;
+    }
     .button-portfolio {
            background: #F5F4FA;
            border-radius: 4px;
@@ -136,12 +143,13 @@
            text-align: center;
            letter-spacing: 0.03em;
            color: #212121;
-
+           cursor: default;
     }
     .button-portfolio:hover,
     .button-portfolio:focus {
             background-color:#2196F3;
             color: white;
+            cursor: pointer;
     }
     .portfolio-header {
             font-family: Roboto;
@@ -163,3 +171,5 @@
     .link-logo {
         text-decoration: none;
     }
+   
+    
